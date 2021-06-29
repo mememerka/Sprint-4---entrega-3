@@ -83,4 +83,12 @@ users.map(function(user) {
      let splitedreverted = [...splited].reverse();
      return splitedreverted.join("");
  }
- 
+//EXERCICI 5
+function b() {
+   // tasques asíncrones , que triguen una estona..
+}
+
+async function a() {
+   // Ens esperem que la funció b acabi
+   await domorework();
+} 
