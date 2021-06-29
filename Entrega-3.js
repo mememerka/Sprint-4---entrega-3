@@ -66,3 +66,12 @@ var users =
 users.map(function(user) {
     user.firstName;
  });
+
+ //EXERCICI 3
+ var epic = ['a', 'long', 'time', 'ago', 'in a', 'galaxy', 'far far', 'away'];
+
+ var resultat = epic.reduce(function(acc,word){
+     return acc + " " + word;
+ })
+ console.log(resultat);
+
