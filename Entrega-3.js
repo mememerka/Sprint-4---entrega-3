@@ -92,3 +92,21 @@ async function a() {
    // Ens esperem que la funció b acabi
    await domorework();
 } 
+
+//EXERCICI 6
+var tasks = [
+   {
+      'name' : 'Start React web',
+      'duration' : 120
+   },
+   {
+      'name' : 'Work out',
+      'duration' : 60
+   },
+   {
+      'name' : 'Procrastinate on facebook',
+      'duration' : 240
+   }
+   ];
+
+let map =  tasks.map(({name})=> name);
