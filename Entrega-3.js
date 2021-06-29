@@ -75,3 +75,12 @@ users.map(function(user) {
  })
  console.log(resultat);
 
+ //EXERCICI 4
+ let string = ["Lorem ipsum dolor sit amet, consectetur adipiscing elit."];
+
+ invertir = string => {
+     let splited = string.split("");
+     let splitedreverted = [...splited].reverse();
+     return splitedreverted.join("");
+ }
+ 
